@@ -17,6 +17,6 @@ void loop() {
 sensors.requestTemperatures();   
 // Print Temperature
 Serial.print(sensors.getTempCByIndex(0)); 
-Serial.println("º");
+Serial.println("degrees");
 delay(1000); // Repeat every second
 }
